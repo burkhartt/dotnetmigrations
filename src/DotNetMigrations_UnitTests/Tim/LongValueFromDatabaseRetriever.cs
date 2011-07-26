@@ -1,6 +1,7 @@
 ﻿using System.Data.Common;
 using DotNetMigrations.Core;
 using DotNetMigrations.Core.Data;
+using DotNetMigrations.Tim;
 
 namespace DotNetMigrations.UnitTests.Tim
 {

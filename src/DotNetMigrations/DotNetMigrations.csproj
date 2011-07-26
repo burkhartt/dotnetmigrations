@@ -115,6 +115,9 @@
     <Compile Include="Repositories\CommandRepository.cs" />
     <Compile Include="Repositories\LogRepository.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Tim\DatabaseVersionChecker.cs" />
+    <Compile Include="Tim\IDatabaseVersionChecker.cs" />
+    <Compile Include="Tim\ILongValueFromDatabaseRetriever.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

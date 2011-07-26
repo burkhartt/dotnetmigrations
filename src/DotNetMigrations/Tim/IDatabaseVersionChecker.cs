@@ -1,4 +1,4 @@
-﻿namespace DotNetMigrations.UnitTests.Tim
+﻿namespace DotNetMigrations.Tim
 {
     public interface IDatabaseVersionChecker
     {

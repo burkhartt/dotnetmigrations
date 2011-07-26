@@ -128,11 +128,8 @@
     <Compile Include="Repositories\LogRepositoryUnitTests.cs" />
     <Compile Include="SqlDatabaseHelper.cs" />
     <Compile Include="Stubs\InMemoryConfigurationManager.cs" />
-    <Compile Include="Tim\DatabaseVersionChecker.cs" />
-    <Compile Include="Tim\IDatabaseVersionChecker.cs" />
-    <Compile Include="Tim\ILongValueFromDatabaseRetriever.cs" />
     <Compile Include="Tim\LongValueFromDatabaseRetriever.cs" />
-    <Compile Include="Tim\Test.cs" />
+    <Compile Include="Tim\DatabaseVersionCheckerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotNetMigrations.Core\DotNetMigrations.Core.csproj">

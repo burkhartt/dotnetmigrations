@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DotNetMigrations.UnitTests.Tim
+﻿namespace DotNetMigrations.Tim
 {
     public class DatabaseVersionChecker : IDatabaseVersionChecker
     {

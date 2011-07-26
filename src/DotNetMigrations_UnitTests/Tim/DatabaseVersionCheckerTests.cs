@@ -1,4 +1,5 @@
-﻿using Moq;
+﻿using DotNetMigrations.Tim;
+using Moq;
 using NUnit.Framework;
 
 namespace DotNetMigrations.UnitTests.Tim
