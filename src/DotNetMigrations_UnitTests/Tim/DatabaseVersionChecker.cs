@@ -18,7 +18,9 @@ namespace DotNetMigrations.UnitTests.Tim
 
         public long GetPreviousDatabaseVersion(long dbVersion)
         {
-            throw new NotImplementedException();
+            return
+                longValueFromDatabaseRetriever.GetLongFromSqlStatement(
+                    "SELECT MAX([version]) FROM [schema_migrations] WHERE [version] <> " + dbVersion);
         }
     }
 }
