@@ -131,6 +131,7 @@
     <Compile Include="Tim\DatabaseVersionChecker.cs" />
     <Compile Include="Tim\IDatabaseVersionChecker.cs" />
     <Compile Include="Tim\ILongValueFromDatabaseRetriever.cs" />
+    <Compile Include="Tim\LongValueFromDatabaseRetriever.cs" />
     <Compile Include="Tim\Test.cs" />
   </ItemGroup>
   <ItemGroup>
