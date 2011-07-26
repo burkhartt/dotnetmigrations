@@ -128,6 +128,7 @@
     <Compile Include="Repositories\LogRepositoryUnitTests.cs" />
     <Compile Include="SqlDatabaseHelper.cs" />
     <Compile Include="Stubs\InMemoryConfigurationManager.cs" />
+    <Compile Include="Tim\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotNetMigrations.Core\DotNetMigrations.Core.csproj">
